@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Volume Key Assistant</string>
+    <string name="subtitle">Assistive Floating On-Screen Volume Keys</string>
+    <string name="status_title">Overlay Status</string>
+    <string name="status_running">Active &amp; Floating</string>
+    <string name="status_stopped">Disabled</string>
+    <string name="toggle_label">Enable Floating Volume Overlay</string>
+    
+    <string name="permission_title">Permission Required</string>
+    <string name="permission_desc">This app needs permission to "Display over other apps" so the volume keys can float on top of any game, video, or screen.</string>
+    <string name="btn_grant_permission">Grant Overlay Permission</string>
+    
+    <string name="section_quick_controls">Test Device Volume Directly</string>
+    <string name="btn_vol_up">+ Volume Up</string>
+    <string name="btn_vol_down">- Volume Down</string>
+    <string name="btn_mute">Toggle Mute</string>
+    
+    <string name="btn_settings">Customize Overlay Settings</string>
+    <string name="settings_title">Overlay Customization</string>
+    <string name="setting_transparency">Overlay Opacity / Alpha</string>
+    <string name="setting_edge_dock">Auto-Snap to Screen Edges</string>
+    <string name="setting_haptic">Haptic Vibration on Click</string>
+    <string name="setting_percentage">Show Volume Percentage</string>
+    <string name="btn_apply_settings">Apply Changes</string>
+</resources>

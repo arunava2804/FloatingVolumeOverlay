@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="280dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_expanded_panel"
+    android:elevation="16dp"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Header with title and close button -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:text="Sound Controls"
+            android:textColor="@color/overlay_icon_tint"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/btnClosePanel"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:padding="4dp"
+            android:src="@drawable/ic_drag_handle" />
+    </RelativeLayout>
+
+    <!-- 1. Media Stream -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Media / Music"
+        android:textColor="@color/overlay_icon_secondary"
+        android:textSize="12sp" />
+
+    <SeekBar
+        android:id="@+id/sbMediaVolume"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="10dp"
+        android:progressTint="@color/overlay_accent"
+        android:thumbTint="@color/overlay_accent" />
+
+    <!-- 2. Ring / Notification Stream -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ringtone &amp; Notifications"
+        android:textColor="@color/overlay_icon_secondary"
+        android:textSize="12sp" />
+
+    <SeekBar
+        android:id="@+id/sbRingVolume"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="10dp"
+        android:progressTint="@color/overlay_accent"
+        android:thumbTint="@color/overlay_accent" />
+
+    <!-- 3. Voice Call Stream -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Voice Call"
+        android:textColor="@color/overlay_icon_secondary"
+        android:textSize="12sp" />
+
+    <SeekBar
+        android:id="@+id/sbCallVolume"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="10dp"
+        android:progressTint="@color/overlay_accent"
+        android:thumbTint="@color/overlay_accent" />
+
+    <!-- 4. Alarm Stream -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alarm"
+        android:textColor="@color/overlay_icon_secondary"
+        android:textSize="12sp" />
+
+    <SeekBar
+        android:id="@+id/sbAlarmVolume"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="6dp"
+        android:progressTint="@color/overlay_accent"
+        android:thumbTint="@color/overlay_accent" />
+
+</LinearLayout>

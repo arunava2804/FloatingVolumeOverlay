@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="overlay_bg_dark">#D91E2433</color>
+    <color name="overlay_bg_light">#E6F4F6F9</color>
+    <color name="overlay_border">#33FFFFFF</color>
+    <color name="overlay_accent">#3D7BFD</color>
+    <color name="overlay_accent_pressed">#245DD4</color>
+    <color name="overlay_icon_tint">#FFFFFFFF</color>
+    <color name="overlay_icon_secondary">#B3FFFFFF</color>
+    <color name="overlay_mute_red">#FF4D4F</color>
+    <color name="overlay_shadow">#4D000000</color>
+    <color name="overlay_ripple">#40FFFFFF</color>
+</resources>

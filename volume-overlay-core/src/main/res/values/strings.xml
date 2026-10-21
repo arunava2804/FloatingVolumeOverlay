@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="volume_overlay_service_name">Floating Volume Service</string>
+    <string name="volume_overlay_channel_name">Floating Volume Controller</string>
+    <string name="volume_overlay_channel_desc">Keeps the floating volume controller active on screen.</string>
+    <string name="volume_overlay_notification_title">Volume Controller Active</string>
+    <string name="volume_overlay_notification_text">Tap to configure or pause the floating overlay.</string>
+    <string name="volume_overlay_action_stop">Stop</string>
+    
+    <!-- Accessibility Labels -->
+    <string name="desc_volume_up">Increase Volume</string>
+    <string name="desc_volume_down">Decrease Volume</string>
+    <string name="desc_volume_mute">Mute or Unmute Volume</string>
+    <string name="desc_volume_expand">Expand Volume Control Panel</string>
+    <string name="desc_drag_handle">Drag to reposition overlay</string>
+</resources>
